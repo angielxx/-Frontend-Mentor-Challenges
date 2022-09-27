@@ -1,2 +1,2 @@
-# -Frontend-Mentor-Challenges
-Frontend mentor challenges solution
+#Frontendmentor challenges solutions
+This is a solutions repo for frontend mentor challenges.
