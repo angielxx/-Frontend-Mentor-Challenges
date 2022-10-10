@@ -23,5 +23,5 @@
 
 ### 링크
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [솔루션 레포지토리 URL](https://github.com/angielxx/Frontend-Mentor-Challenges/tree/main/01_Product-preview-card-component)
+- [라이브 사이트 URL](https://01-product-preview-card-component.vercel.app/)
