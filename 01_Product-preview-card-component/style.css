@@ -28,12 +28,35 @@ body {
     border-radius: 10px;
 }
 
+@media (max-width: 375px) {
+    .card {
+        width: 345px;
+        height: 612px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+        border-radius: 10px;
+    }
+}
+
 /* ///////////////////////////////// start : left ////////////////////////////// */
 .picture {
     width: 50%;
     background: url("./images/image-product-desktop.jpg");
-    background-size: 100%;
+    background-size: cover;
     border-radius: 10px 0px 0px 10px;
+    background-repeat: no-repeat;
+    flex-shrink: 2;
+}
+
+@media (max-width: 375px) {
+    .picture {
+        height: 40%;
+        width: 100%;
+        background: url("./images/image-product-mobile.jpg");
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
 }
 
 .picture img {
@@ -52,6 +75,18 @@ body {
     padding: 32px;
     box-sizing: border-box;
     justify-content: space-between;
+    flex-basis: 300px;
+}
+
+@media (max-width: 375px) {
+    .aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
 }
 
 /* reset margin*/
@@ -66,14 +101,26 @@ h4 {
     letter-spacing: 0.2rem;
     margin-bottom: 20px;
 }
+@media (max-width: 375px) {
+    h4 {
+        margin-bottom: 15px;
+    }
+}
 
 h1 {
     font-family: var(--font2);
 }
 
 .title {
+    font-size: 2rem;
     line-height: 2rem;
     margin-bottom: 32px;
+}
+
+@media (max-width: 375px) {
+    .title {
+        margin-bottom: 20px;
+    }
 }
 
 p {
@@ -91,6 +138,7 @@ p {
 .price1 {
     color: var(--darkCyan);
     margin-right: 16px;
+    font-size: 1.8rem;
 }
 
 .price2 {
@@ -102,7 +150,7 @@ p {
 
 .add-button {
     width: 100%;
-    height: 48px;
+    height: 50px;
     border: none;
     background-color: var(--darkCyan);
     padding: 0px;
@@ -123,14 +171,3 @@ p {
     margin-right: 8px;
 }
 /* ///////////////////////////////// end : right ////////////////////////////// */
-
-
-/* //////////////////////////////////////////////////// */
-/* //////////////////////responsive//////////////////// */
-/* //////////////////////////////////////////////////// */
-
-@media (max-width: 375px) {
-    .card {
-        flex-direction: column;
-    }
-}
