@@ -1,6 +1,8 @@
 # 02. intro section with dropdown navigation main
 ### 최종 결과물
 - [라이브 사이트 URL](https://02-intro-section-with-dropdown-navigation-main.vercel.app/)
+<br>
+<br>
 
 ## 목차
 
