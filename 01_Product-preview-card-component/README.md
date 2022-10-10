@@ -1,4 +1,6 @@
 # 01. Product preview card component solution
+### 최종 결과물
+- [라이브 사이트 URL](https://01-product-preview-card-component.vercel.app/)
 
 ## 목차
 

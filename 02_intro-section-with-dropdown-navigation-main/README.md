@@ -1,4 +1,6 @@
-# 01. Product preview card component solution
+# 02. intro section with dropdown navigation main
+### 최종 결과물
+- [라이브 사이트 URL](https://02-intro-section-with-dropdown-navigation-main.vercel.app/)
 
 ## 목차
 
@@ -35,5 +37,5 @@
 
 ### 링크
 
-- [솔루션 레포지토리 URL](https://github.com/angielxx/Frontend-Mentor-Challenges/tree/main/01_Product-preview-card-component)
+- [솔루션 레포지토리 URL](https://github.com/angielxx/Frontend-Mentor-Challenges/tree/main/02_intro-section-with-dropdown-navigation-main)
 - [라이브 사이트 URL](https://02-intro-section-with-dropdown-navigation-main.vercel.app/)
