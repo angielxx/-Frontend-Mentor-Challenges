@@ -1,0 +1,156 @@
+* {
+    text-decoration: none;
+    --white1: hsl(0, 0%, 98%);
+    --grey1: hsl(0, 0%, 41%);
+    --black1:  hsl(0, 0%, 8%);
+    color: var(--black1);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    height: 100%;
+}
+
+/* ///////////////////// start : header //////////////////// */
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey1);
+}
+
+.header__logo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 84px - 40px);
+    height: 100%;
+}
+
+.header__menu__main {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__main a {
+    margin-right: 40px;
+}
+
+.header__menu__main a img {
+    margin-left: 8px;
+}
+
+.header__menu__account {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__account a:nth-child(1) {
+    margin-right: 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    border: 1px solid var(--grey1);
+    border-radius: 10px;
+    width: 104px;
+    height: 42px;
+}
+
+.learnMore {
+    background-color: var(--black1);
+    width: 163px;
+    height: 56px;
+    color: var(--white1);
+    border-radius: 10px;
+}
+/* ///////////////////// end : header //////////////////// */
+
+
+
+/* ///////////////////// start : main //////////////////// */
+main {
+    width: 100%;
+    height: calc( 100% - 80px );
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main article {
+    height: 650px;
+}
+
+article:nth-child(1) {
+    margin-right: 150px;
+}
+
+.main__article {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__article div:nth-child(1) {
+    margin: 100px 0px;
+}
+
+.main__article h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.main__article p {
+    color: var(--grey1);
+    line-height: 1.6rem;
+    width: 430px;
+    margin-bottom: 60px;
+}
+
+.main__image {
+    width: 480px;
+}
+
+.main__image img {
+    width: 100%;
+}
+
+.article__client {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ///////////////////// end : main //////////////////// */
